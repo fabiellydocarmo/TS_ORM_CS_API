@@ -1,0 +1,16 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "10618902",
+    "database": "ts_orm_cs_api_fabi",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/app/models/*.ts"
+    ],
+    "migrations": [
+        "src/database/migrations/*.ts"
+    ]
+}
